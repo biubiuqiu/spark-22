@@ -1,0 +1,9 @@
+server:
+  port: 30100
+spark22:
+  app-name: Spark22-Hive-Integration-App
+  metastore-uris: thrift://ip:port
+  hive-version: versionNumber
+  hive-jars-path: path
+  master: local[*]
+  ui-port: uiport
